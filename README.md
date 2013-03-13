@@ -6,5 +6,5 @@ This is the source code of my [*homepage*](http://www.tawheedraheem.com)
 * framework is rails
 * tested with rspec
 * hosted on heroku
-* documentation with rdoc
+* documentation with yardoc 
 
