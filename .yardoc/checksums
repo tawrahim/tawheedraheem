@@ -1,0 +1,4 @@
+app/controllers/application_controller.rb 2036468398e54b3fc8af23cb6f9e1716293320eb
+app/controllers/homepage_controller.rb fe28f1679e4c00480500a7adc6db0fc06cc1b135
+app/helpers/application_helper.rb eef3d3adce96afe8b14c19b6135323f47543d979
+app/helpers/homepage_helper.rb f440c64115701452dce0089c79b8d2250187c2ee
