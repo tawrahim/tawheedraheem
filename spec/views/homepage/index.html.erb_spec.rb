@@ -1,5 +1,12 @@
 require 'spec_helper'
 
 describe "homepage/index.html.erb" do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should have right contents and links" do
+    visit '/'
+    page.should have_content('Tawheed')
+    page.should have_link('About')
+    page.should have_link('Projects')
+    page.should have_link('Blog')
+    page.should have_link('Teaching')
+  end
 end
