@@ -1,0 +1,155 @@
+body {
+    background: url(/assets/bg.png);
+	background-size: 115%;
+	background-attachment: fixed;
+}
+
+a, a:hover {
+    color: #a2000c;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 20px 0 40px 0;
+    font-family: "ChunkFiveRoman";
+}
+
+h2 {
+    font-family: "MuseoSans500";
+    font-size: 28px;
+}
+
+h3 {
+    font-family: "MuseoSans500";
+    font-size: 22px;
+}
+
+h4 {
+    font-family: "MuseoSans500";
+    font-style: italic;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: "MuseoSans500";
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+h3.subheading {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.chunk {
+    font-family: "ChunkFiveRoman";
+}
+
+.museo-sans {
+    font-family: "MuseoSans500";
+}
+
+.container {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#title {
+    margin-bottom: 40px;
+	
+}
+
+#tawheed, #educator, #developer {
+   margin-left: 60px;
+   font-size: 85px;
+   margin-bottom: -50px;
+}
+
+#para {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+
+#about {
+    padding-right: 10px;
+    padding-top: 10px;  
+}
+
+#hi {
+    font-size: 150px;
+    margin-bottom: -80px;
+}
+
+#developer {
+    margin-bottom: -30px;
+}
+
+#nav {
+    margin-bottom: 54px;
+}
+
+.nav-headline {
+    font-size: 42px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#nav-current {
+    font-size: 36px;
+    margin-left: 25px;
+    height: 30px;
+}
+
+
+.course-description {
+    font-size: 18px;
+}
+
+
+.project-section {
+    margin-top: 30px;
+}
+
+#abouttext{
+    font-family: "Helvetica";
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+
+}
+
+.blogpost{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#author {
+
+}
+
+#dateauthor {
+
+}
+
+.heading {
+    color: #a2000c;
+    font-family: "MuseoSans500";
+    font-size: 42px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
