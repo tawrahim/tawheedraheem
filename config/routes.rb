@@ -1,8 +1,8 @@
 Tawheedraheem::Application.routes.draw do
   
   # Map some routes for the application
-  match "/" => "homepage#index"
-  match "/about" => "homepage#about"
+  root to: 'homepage#index'
+  match "/about", to: "homepage#about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,3 +1,20 @@
-<title> <% provide(:title,'| About') %></title>
-<h1>Homepage#about</h1>
-<p>Find me in app/views/homepage/about.html.erb</p>
+ <% provide(:title,'About') %>
+    <div class="span-22 prepend-1 chunk last">
+          <h1>About me</h1>
+    </div>
+
+<div id="para">
+    <img src="assets/tawheed.jpeg" align="left" id="about" />
+    <div id="abouttext">
+                        My name is Tawheed Abdul-Raheem, a  software developer around the Boston area with a huge passion for entrepreneurship, startups and innovation.  I graduated from Fitchburg State University in 2012. I started programming in 2008 in java but would say my real love for computers and the whole software engineering field came to life in the late 2010 when I got my own personal laptop. Boy! That was great and also a life changer, fortunately for me, later that year I landed my first software developer internship at VelQuest now known as Accelyrs. I learnt tons of skills and some good engineering practices.  I am bit of geek, thanks to Ubuntu - reason why I thank Ubuntu is that it made me a curious nerd and showed me the doors of the open web.  To put it in plain words, I was running Lucid Lynx (10.04) as the main OS on my machine, I was much of a noob and nothing really worked well for me since I was coming from a windows background. Through curiousty, I  enjoyed toasting my laptop a couple of times and reading lengthy blogs and forums to figure out how to fix the mess I created. If Lucid Lynx did not work too well for me, I imagine noobs who installed Warty Warthog (4.10) - the first release of the Ubuntu OS!  Anyways I do most of my work on OSX but often switch to Ubuntu for other projects.  I love going to hackathons, nerd meetups, linux festivals and wearing free nerdy t-shirts. Recently discovered a passion for the raspberry-PI and exploring ways that it could help kids learn how to program. I also teach kids how to program in python. I love the web, mobile and anything technology related. I am currently learning Ruby on Rails.  Oh one more thing, I want to be like the other cool senior developers so I have started using VIM as my code editor.  
+     </div>
+ </div>
+<div id="nav" class="museo-sans span-24 last">
+   <div id="nav" class="museo-sans span-24 last">
+            <div class="span-5 prepend-1">
+                <div class="nav-headline"><a href="#">Home</a></div>
+                <div class="nav-text">Back to home page</div>
+    </div>
+    <%= render 'homepage/navbar' %>
+</div>
+
